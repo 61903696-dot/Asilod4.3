@@ -17,3 +17,13 @@
 ### The repository is organized in multiple folders:
 ###      demos -> Materials to help you follow along with videos
 ###      assessments -> Materials used for assessments
+
+#### [Ayash Shiyas] - Coursera week 1
+
+This repository contains C code for analyzing an array of unsigned char data. The program calculates and prints the minimum, maximum, mean, and median of the data set. It also sorts the array in descending order.
+
+**Files:**
+
+-   `stats.c`: Implementation file containing the function definitions.
+-   `stats.h`: Header file containing function declarations.
+-   `README.md`: This file, providing information about the project.
