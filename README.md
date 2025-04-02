@@ -17,3 +17,4 @@
 ### The repository is organized in multiple folders:
 ###      demos -> Materials to help you follow along with videos
 ###      assessments -> Materials used for assessments
+### ayash shiyas week 1 Introduction to Embedded Systems Software and Development Environments application assignment submission.
