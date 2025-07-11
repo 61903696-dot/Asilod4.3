@@ -8,10 +8,25 @@
 # misuse of this material. 
 #
 #*****************************************************************************
+ifeq ($(PLATFORM),HOST)
 
+# Compiler and include settings for HOST
+	SOURCES = src/main.c src/memory.c
+	INCLUDES = -Iinclude/common
+
+else ifeq ($(PLATFORM),MSP432)
 # Add your Source files to this variable
-SOURCES =
+	SOURCES = \
+		src/main.c \
+		src/memory.c \
+		src/startup_msp432p401r_gcc.c \
+		src/system_msp432p401r.c \
+		src/interrupts_msp432p401r_gcc.c	
 
-# Add your include paths to this variable
-INCLUDES = 
+	# Add your include paths to this variable
+	INCLUDES = /
+	  	-Iinclude/common \
+		-Iinclude/msp432 \
+		-Iinclude/CMSIS
+endif
 

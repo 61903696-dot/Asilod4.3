@@ -1,4 +1,8 @@
 ###******************************************************************************
+# Aman Kumar 
+# This is my first assignment
+
+
 # Copyright (C) 2017 by Alex Fosdick - University of Colorado
 #
 # Redistribution, modification or use of this software in source or binary
